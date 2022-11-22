@@ -82,30 +82,30 @@ $('#nav').affix({
             });
             document.getElementById('#cvbuttonEN').onclick = function() {
               if (selector == '*'){
-                window.open('assets/EN-resume1.pdf');
+                window.open('https://fosterfl.github.io/assets/EN-resume1.pdf');
               }
               else if (selector == '.web') {
-                window.open('assets/EN-resume2.pdf');
+                window.open('https://fosterfl.github.io/assets/EN-resume2.pdf');
               }
               else if (selector == '.proj') {
-                window.open('assets/EN-resume3.pdf');
+                window.open('https://fosterfl.github.io/assets/EN-resume3.pdf');
               }
               else if (selector == '.human') {
-                window.open('assets/EN-resume4.pdf');
+                window.open('https://fosterfl.github.io/assets/EN-resume4.pdf');
               }};
 
               document.getElementById('#cvbuttonFR').onclick = function() {
                 if (selector == '*'){
-                  window.open('assets/FR-resume1.pdf');
+                  window.open('https://fosterfl.github.io/assets/FR-resume1.pdf');
                 }
                 else if (selector == '.web') {
-                  window.open('assets/FR-resume2.pdf');
+                  window.open('https://fosterfl.github.io/assets/FR-resume2.pdf');
                 }
                 else if (selector == '.proj') {
-                  window.open('assets/FR-resume3.pdf');
+                  window.open('https://fosterfl.github.io/assets/FR-resume3.pdf');
                 }
                 else if (selector == '.human') {
-                  window.open('assets/FR-resume4.pdf');
+                  window.open('https://fosterfl.github.io/assets/FR-resume4.pdf');
                 }};
 
             return false;
